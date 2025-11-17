@@ -1,20 +1,13 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { ExternalLink } from "lucide-react"
+import { ExternalLink } from 'lucide-react'
 
 export function Projects() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [isPaused, setIsPaused] = useState(false)
 
   const projects = [
-    {
-      title: "Mindmymind: Discover You",
-      description: "Self-discovery and personality app with AI companion that helps you feel truly seen and heard",
-      link: "https://apps.apple.com/us/app/mindmymind-discover-you/id6504887915",
-      tags: ["iOS", "AI", "Lifestyle", "Self-Discovery"],
-      category: "Lifestyle & Wellness App",
-    },
     {
       title: "EastNine Workouts & Plans",
       description: "A comprehensive fitness app with personalized workout plans and tracking features for iOS",
